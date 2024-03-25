@@ -3,7 +3,7 @@
 ### Docker
 Deberan instalar y configurar la aplicación de Docker, a continuación verán la [documentación oficial de Docker](https://docs.docker.com/build/cloud/?_gl=1*1b0umwv*_ga*MTU5OTE0ODM1My4xNzExMzQyOTk3*_ga_XJWPQMJYHQ*MTcxMTQwNDM4My4xLjEuMTcxMTQwNDM4NS41OC4wLjA.)
 
-Una vez instalado Docker podemos inicniar con la prueba del API, el back viene con data inicial para esto. En esta data iniicial encontraremos el usuario administrador y un usuario de prueba.
+Una vez instalado Docker podemos iniciar con la prueba del API, el back viene con data inicial para esto. En esta data inicial encontraremos el usuario administrador y un usuario de prueba.
 Para loguearse debemos acceder a la siguiente URL con las siguientes credenciales:
 
 ``` curl
