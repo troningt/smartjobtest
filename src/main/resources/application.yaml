@@ -1,0 +1,24 @@
+spring:
+  sql:
+    init:
+      mode: always
+  application:
+    name: ms-security
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+
+security:
+  jwt:
+    expiration-minutes: 60
+    secret-key: ${SECRET_KEY}
